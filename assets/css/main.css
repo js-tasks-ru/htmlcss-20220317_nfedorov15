@@ -22,3 +22,11 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+:root {
+    --background-accordion-item: #FFFFFF;
+    --color-accordion-tittle: #212429;
+    --color-accordion-content: #495057;
+     --border-accordion-item: #ACB5BD;
+   }
+   
