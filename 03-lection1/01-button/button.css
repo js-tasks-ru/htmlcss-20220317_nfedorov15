@@ -1,3 +1,14 @@
+:root {
+  --color-button: #FFFFFF;
+  --background-primary: #4263EB;
+  --background-primary-hover: #2342C0;
+  --background-secondary: #7048E8;
+  --background-secondary-hover: #5028C6;
+  --color-alternate: #495057;
+  --border-color-alternate: #ACB5BD;
+  --border-color-alternate-hover: #212429;
+}
+
 .button{
     font-family: 'Roboto';
     font-style: normal;
@@ -6,57 +17,47 @@
     line-height: 19px;
     
     text-align: center;
-    color: #FFFFFF;
+    color: var(--color-button);
      
-    border: 0;
-    padding: 10px 20px;
-    font-size: 16px;
+    border: none;
+    box-sizing: border-box;
+    padding: 14px 15px 15px;
     border-radius: 8px;
+    height: 48px;
+    display: inline-block;
     }
     
-    .button__primary {
-      background: #4263EB;
+    .button_primary {
+      background: var(--background-primary);
     }
     
-    .button__primary:hover {
-      background: #1d49aa;
+    .button_primary:hover {
+      background: var(--background-primary-hover);
+    }
+
+    
+    .button_secondary{
+      background: var(--background-secondary);
     }
     
-    .button__primary:active {
-     color: #778899;
+    .button_secondary:hover{
+      background: var(--background-secondary-hover);
     }
+
     
-    .button__secondary{
-      background: #4263EB;
-      color: red;
-    }
-    
-    .button__secondary:hover{
-      background: #1d49aa;
-    }
-    
-    .button__secondary:active{
-      color: #778899;
-      background: black;
-    }
-    
-    .button__alternate{
-      border: 1px solid #ACB5BD;
+    .button_alternate{
+      border: 1px solid var(--border-color-alternate);
       box-sizing: border-box;
-      color: #495057;
+      color: var(--color-alternate);
     }
     
-    .button__alternate:hover{ 
-      background: #5028C6;
-      border: 1px solid #212429;
+    .button_alternate:hover{ 
+      border: 1px solid var(--border-color-alternate-hover);
     }
     
-    .button__alternate:active {
-     color: #778899;
-     background: black;
-    }
+    
     
     .button:disabled {
-     pacity: 0.5;
+     opacity: 0.5;
      cursor: not-allowed;
     }
