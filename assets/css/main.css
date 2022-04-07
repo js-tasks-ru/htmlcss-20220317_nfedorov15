@@ -23,3 +23,14 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+:root {
+    --color-button: #FFFFFF;
+    --background-primary: #4263EB;
+    --background-primary-hover: #2342C0;
+    --background-secondary: #7048E8;
+    --background-secondary-hover: #5028C6;
+    --color-alternate: #495057;
+    --border-color-alternate: #ACB5BD;
+    --border-color-alternate-hover: #212429;
+  }
