@@ -18,6 +18,17 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+   
+   
+   
+    
+    --background-primary: #4263EB;
+    --background-primary-hover: #2342C0;
+    
+    --background-secondary-hover: #5028C6;
+    
+    
 }
 
 * {

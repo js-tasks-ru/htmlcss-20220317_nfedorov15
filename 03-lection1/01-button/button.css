@@ -8,7 +8,7 @@
     line-height: 19px;
     
     text-align: center;
-    color: var(--color-button);
+    color: var(--white);
      
     border: none;
     box-sizing: border-box;
@@ -28,7 +28,7 @@
 
     
     .button_secondary{
-      background: var(--background-secondary);
+      background: var(--purple);
     }
     
     .button_secondary:hover{
@@ -37,13 +37,13 @@
 
     
     .button_alternate{
-      border: 1px solid var(--border-color-alternate);
+      border: 1px solid var(--grey-3);
       box-sizing: border-box;
-      color: var(--color-alternate);
+      color: var(--grey-4);
     }
     
     .button_alternate:hover{ 
-      border: 1px solid var(--border-color-alternate-hover);
+      border: 1px solid var(--black);
     }
     
     
