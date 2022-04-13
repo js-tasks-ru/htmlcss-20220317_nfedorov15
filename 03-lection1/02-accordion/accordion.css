@@ -1,46 +1,44 @@
 /* Стилизация аккордеона */
 
-   .accordion__item {
-   background: var(--background-accordion-item);
-   border: 1px solid var(--border-accordion-item);
-   box-sizing: border-box;
-   border-radius: 8px;
-     
-   width: 730px;
-     margin-bottom: 8px;
-   }
-   
-   
-   .accordion__tittle{
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   color: var(--color-accordion-tittle);
-   
-   
-   
-     padding: 24px 32px 24px ;
-   }
-   
-   .accordion__content{
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   color: var(--color-accordion-content);
-    
-     padding: 0px 32px 32px;
-   margin: -8px 0px 0px;
-   }
-   
-   summary{
-     list-style: none;
-   }
-   
-   .accordion__item:last-child {
-     margin-bottom: 0;
-   }
-   
+.accordion__item {
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+ 
+    width: 53%;
+
+    margin-bottom: 8px;
+}
+
+
+.accordion__tittle{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--black);
+list-style: none;
+
+
+
+  padding: 24px 32px 24px ;
+}
+
+.accordion__content{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--grey-4);
+
+  padding: 0px 32px 32px;
+margin: -8px 0px 0px;
+
+}
+
+.accordion__item:last-child {
+  margin-bottom: 0;
+}
