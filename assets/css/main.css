@@ -17,16 +17,19 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+
+    --background-primary: #4263EB;
+    --background-primary-hover: #2342C0;
+    --background-secondary-hover: #5028C6;
+
+    
+
 }
 
 * {
     font-family: 'Roboto', sans-serif;
 }
 
-:root {
-    --background-accordion-item: #FFFFFF;
-    --color-accordion-tittle: #212429;
-    --color-accordion-content: #495057;
-     --border-accordion-item: #ACB5BD;
-   }
+
    
