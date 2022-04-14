@@ -1,5 +1,10 @@
 @import '../fonts/fonts.css';
 @import "normalize.css";
+@import "../../components/page/page.css";
+@import "../../components/header/header.css";
+@import "../../components/footer/footer.css";
+@import "../../components/preview/preview.css";
+@import "../../components/container/container.css";
 
 :root {
     --white: #ffffff;
@@ -13,36 +18,27 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
-    
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
 
-   
-   
-   
-    
+
     --background-primary: #4263EB;
     --background-primary-hover: #2342C0;
-    
     --background-secondary-hover: #5028C6;
+
     
-    
+
 }
 
 * {
     font-family: 'Roboto', sans-serif;
 }
 
-:root {
-    --color-button: #FFFFFF;
-    --background-primary: #4263EB;
-    --background-primary-hover: #2342C0;
-    --background-secondary: #7048E8;
-    --background-secondary-hover: #5028C6;
-    --color-alternate: #495057;
-    --border-color-alternate: #ACB5BD;
-    --border-color-alternate-hover: #212429;
-  }
+html.body{
+    height: 100%;
+}
+
+   
